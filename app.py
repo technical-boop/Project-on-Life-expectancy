@@ -19,7 +19,7 @@ from sklearn.metrics import (
 # APP CONFIG
 # ------------------------------------------------------------------
 st.set_page_config(
-    page_title="Bhutan Life Expectancy Analysis & Prediction",
+    page_title="Life Expectancy Prediction in Bhutan",
     layout="wide",
 )
 
@@ -59,7 +59,7 @@ page = st.sidebar.radio(
 # PAGE: OVERVIEW
 # ------------------------------------------------------------------
 if page == "Overview":
-    st.title("Bhutan Life Expectancy Analysis & Prediction")
+    st.title("Life Expectancy Prediction in Bhutan")
 
     st.markdown(
         """
